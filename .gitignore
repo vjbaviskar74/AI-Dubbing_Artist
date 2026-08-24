@@ -2,6 +2,16 @@
 # NaturalDub AI — .gitignore
 # ============================================================
 
+# --- Ad-hoc Root-Level Dev/Test Scripts ---
+test_*.py
+rewrite*.py
+list_*.py
+
+# --- Backup & Scratch Files ---
+*_backup.py
+*_original*.py
+*.zip
+
 # --- Secrets & Environment ---
 .env
 *.env
