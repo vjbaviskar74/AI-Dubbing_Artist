@@ -1,0 +1,21 @@
+fastapi
+uvicorn
+streamlit
+pydub
+langchain
+langgraph
+langchain-community
+librosa
+opencv-python
+sqlalchemy
+pytest
+python-dotenv
+requests
+# Advanced models wrappers dependencies (optional in MVP)
+# demucs
+# faster-whisper
+# pyannote.audio
+# mlflow
+# pyspark
+# psycopg2-binary
+# pgvector

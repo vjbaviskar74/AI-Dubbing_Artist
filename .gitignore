@@ -1,0 +1,68 @@
+# ============================================================
+# NaturalDub AI — .gitignore
+# ============================================================
+
+# --- Secrets & Environment ---
+.env
+*.env
+!.env.example
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.log
+
+# --- Virtual Environments ---
+venv/
+venv311/
+.venv/
+env/
+ENV/
+
+# --- Audio / Video / Binary Test Artifacts ---
+*.mp3
+*.wav
+*.mp4
+*.mkv
+*.avi
+*.webm
+*.flac
+*.ogg
+
+# --- Large Data & Model Files ---
+bigdata/
+data/
+artifacts/
+demucs_test/
+scratch/
+*.db
+*.sqlite3
+*.pt
+*.pth
+*.onnx
+*.bin
+
+# --- IDE & OS ---
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Docker ---
+*.override.yml
+
+# --- Node (if any UI tooling) ---
+node_modules/

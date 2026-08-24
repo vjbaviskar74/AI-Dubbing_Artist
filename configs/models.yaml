@@ -1,0 +1,20 @@
+asr:
+  provider: groq
+  model: whisper-large-v3
+
+diarization:
+  provider: pyannote
+  model: speaker-diarization
+
+translation:
+  provider: openrouter
+  model: qwen2.5:3b # local Ollama or cloud models
+
+tts:
+  provider: sarvam
+  model: bulbul:v3
+  default_speaker: aditya
+
+voice_conversion:
+  provider: local
+  model: seed-vc

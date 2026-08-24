@@ -1,0 +1,18 @@
+version: 1
+
+system:
+  app_name: NaturalDub AI
+  debug: false
+  environment: production
+  log_level: INFO
+
+paths:
+  data_dir: data
+  runs_dir: data/runs
+  cache_dir: data/cache
+  samples_dir: data/samples
+
+execution:
+  allow_cpu_fallback: true
+  max_concurrent_tasks: 4
+  cleanup_intermediates: false
